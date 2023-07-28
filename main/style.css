@@ -9,7 +9,9 @@ header {background-color: #eaf6ffff;
     font-size: large;
 }
 
-main {}
+main {color : #232528ff;
+    text-align: center;
+    font-size: large;}
 
 nav{background-color: #232528ff;
         color : #232528ff;
@@ -23,7 +25,12 @@ nav{background-color: #232528ff;
 #links {background-color: #eaf6ffff;
     color: #232528ff;
     font-size: large;
+    text-align: center;
 }
+
+form{color : #232528ff; text-align: center; font-size: large;}
+
+divider{background-color: #232528ff;}
         
 footer {
         background-color: #232528ff;

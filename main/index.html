@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Steven Moreno</title>
+        <link rel = "stylesheet" href = "style.css">
+        <style>
+            h1,h2{text-align: center;}
+            table{margin: auto; border: 5px solid #232528ff; text-align: center; padding:20px; height:auto; width:auto;}
+            caption{font-size:large; color: #232528; text-align: center; font-weight: bold;}
+            td, th {border: 1px solid #232528ff; padding: 20px; font-family:Arial; font-weight: bold; font-size:large;}
+            td.altrow{background-color: #eaf6ffff;}
+            img{width:100%; height:100%;}
+        </style>
+    </head>
+    
+    <body>
+        <header>
+            <h1>Steven Moreno</h1>
+            <h2>3D Character Artist</h2>
+        </header>
+        
+    </body>
+    
+    <nav>
+        <a href = "index.html"> Home</a> | <a href = "about.html"> About</a> | <a href = "contact.html"> Contact</a>
+    </nav>
+    
+    <main>
+        <br>
+        <table>
+            <caption>Recent Work</caption>
+                <tr>
+                    <td colspan = "3" align = "center">Ogre</td>
+                </tr>
+
+                <tr>
+                    <td><img src = "../main/images/ogre_front_solid.png" alt = "ogre_front_solid" width =0% height =0%></td>
+                    <td><img src = "../main/images/ogre_front_wireframe.png" alt = "ogre_front_wireframe" width =0% height =0%></td>
+                    <td><img src = "../main/images/ogre_front_render.png" alt = "ogre_front_render" width =0% height =0%></td>
+                </tr>
+
+                <tr>
+                    <td>Solid</td>
+                    <td>Wireframe</td>
+                    <td>Render</td>
+                </tr>
+        </table>
+        
+        <p style = "text-align: center; background-color: #232528ff; color: #eaf6ffff">Images courtesy of <a href="https://egcc.instructure.com/profile">Steven Moreno</a></p><br>
+        
+        <h1>Get Our Newsletter!</h1>
+        <form method="get">
+            <label for = "email">Email:</label> <input type = "email" name="email" id="email">
+            <br>
+            <br>
+            <input type = "submit" value="Send me the newsletter!"> &nbsp; <input type="reset">
+        </form><br> 
+        
+        <h1>Favorite 3D Character</h1>
+        <p>What kind of 3D characters are your favorite?</p>
+        <form method="get">
+            <input type="checkbox" name="stylized" id="stylized" value="yes"> Stylized<br>
+            <input type="checkbox" name="realistic" id="realistic" value="yes">Realistic<br>
+            <input type="checkbox" name="abstract" id="abstract" value="yes">Abstract<br>
+            <input type="checkbox" name="organic" id="organic" value="yes">Organic<br>
+            <input type="checkbox" name="mechanical" id="mechanical" value="yes">Mechanical<br>
+            <br>
+            <input type="submit" value="Make my 3D character!"> &nbsp; <input type="reset">
+        </form><br>
+
+        <h1>Favorite Character Color</h1>
+        <p>What is your favorite character's color?</p>
+        <form method="get">
+            <input type="radio" name="favecolor" id="favered" value="red"> Red<br>
+            <input type="radio" name="favecolor" id="faveblue" value="blue"> Blue<br>
+            <input type="radio" name="favecolor" id="favegreen" value="green"> Green<br>
+            <input type="radio" name="favecolor" id="faveyellow" value="yellow"> Yellow<br>
+            <input type="radio" name="favecolor" id="faveblack" value="black"> Black<br>
+            <br>
+            <input type="submit" value="Submit"> &nbsp; <input type="reset">
+        </form><br>
+
+        <h1>Project Navigation</h1> 
+        <form method="get">
+        <select size="1" name="menu" id="menu">
+            <option value="ogre.html">Ogre</option>
+        </select>
+        </form><br>
+
+        <h1>Comments, Question and Concerns</h1>
+        <form method="get">
+            <b><i>Comments:</i></b><br> 
+            <textarea name="comments" id="comments" cols="50" rows="4"></textarea>
+    </form><br>
+    </main>
+
+    <footer><a href="mailto:smoreno2@student.egcc.edu"><h1 class="solid">&copy; 2023 Steven Moreno smoreno2@student.egcc.edu</h1></a></footer>
+
+</html>
