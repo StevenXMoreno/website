@@ -1,0 +1,66 @@
+body {background-color: #eaf6ffff;
+    color : #232528ff;
+    font-size: large;
+}
+
+header {background-color: #eaf6ffff;
+    color : #232528ff;
+    text-align: center;
+    font-size: large;
+}
+
+main {}
+
+nav{background-color: #232528ff;
+        color : #232528ff;
+        font-size: large;
+        text-align: center;
+    }
+
+    a:link {color : #009ffdff;}
+    a:visited {color : #ff4500;}
+
+#links {background-color: #eaf6ffff;
+    color: #232528ff;
+    font-size: large;
+}
+        
+footer {
+        background-color: #232528ff;
+        color : #232528ff;
+        font-size: xx-small;
+        text-align: center;
+        }   
+        
+/*border classes */
+.inset{border-width: 10px;
+    border-style: inset;
+    border-color: #666b69}
+
+.outset{border-width: 10px;
+    border-style: outset;
+    border-color: #666b69}
+
+.double{border-width: 10px;
+    border-style: double;
+    border-color: #666b69}
+
+.groove{border-width: 10px;
+    border-style: groove;
+    border-color: #666b69}
+
+.ridge{border-width: 10px;
+    border-style: ridge;
+    border-color: #666b69}
+
+.solid{border-width: 10px;
+    border-style: solid;
+    border-color: #666b69}
+
+.dashed{border-width: 10px;
+    border-style: dashed;
+    border-color: #666b69}
+
+.dotted{border-width: 10px;
+    border-style: dotted;
+    border-color: #666b69}
